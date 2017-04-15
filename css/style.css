@@ -173,8 +173,8 @@ a.btn.btn-primary.my-btn:hover{
 }
 button.btn.btn-primary.my-btn.dark:hover,
 a.btn.btn-primary.my-btn.dark:hover{
-	background: #bbb;
-	color: #000;
+	background-color: #aaa;
+	color: #3a3a3a;
 	border-color: transparent;
 }
 a.btn.btn-primary.my-btn2 {

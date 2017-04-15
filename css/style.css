@@ -125,7 +125,7 @@ a:focus{
 .media-left.media-middle i {
 	padding: 20px 30px 20px 0;
 	font-size: 30px;
-	color: #1a9eba;
+	color: #00D2FF;
 
 }
 
@@ -133,7 +133,7 @@ a:focus{
 	margin-bottom: 20px;
 	font-size: 16px;
 	font-weight: 700;
-	color: #1a9eba;
+	color: #00D2FF;
 }
 
 #tf-tournaments{
@@ -173,8 +173,8 @@ a.btn.btn-primary.my-btn:hover{
 }
 button.btn.btn-primary.my-btn.dark:hover,
 a.btn.btn-primary.my-btn.dark:hover{
-	background: #222222;
-	color: #313131;
+	background: #bbb;
+	color: #000;
 	border-color: transparent;
 }
 a.btn.btn-primary.my-btn2 {

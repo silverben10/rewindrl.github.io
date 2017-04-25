@@ -3,17 +3,64 @@
   <head>
     <!-- Basic Page Needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Rewind Gaming</title>
-    <meta name="description" content="A Rocket League organisation">
-    <meta name="keywords" content="rewind, gaming, rocket, league, tournaments, competitive, team, esports, poisonwasp, bucketman">
-    <meta name="author" content="bucketman">
-    
+    <meta name="description" content="An EU-based Rocket League organisation and team."/>
+    <meta name="keywords" content="rewind, gaming, rocket, league, tournaments, competitive, team, esports, poisonwasp, bucketman"/>
+    <meta name="author" content="bucketman"/>
+	<meta name="geo.region" content="GB"/>
+	<!-- OGP metadata -->
+	<meta property="og:title" content="Rewind Gaming"/>
+	<meta property="og:description" content="An EU-based Rocket League organisation and team."/>
+	<meta property="og:image" content="https://raw.githubusercontent.com/rewindrl/rewindrl.github.io/master/img/embedlogo.png"/>
+	<meta property="og:image" content="https://raw.githubusercontent.com/rewindrl/rewindrl.github.io/master/img/Rewind%20Transparent.png"/>
+	<meta property="og:url" content="https://rewindrl.uk"/>
+	<meta property="og:site_name" content="Rewind Gaming"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:locale" content="en_GB"/>
+	<!-- Twitter metadata -->
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:site" content="@RewindRL"/>
+	<meta name="twitter:title" content="Rewind Gaming"/>
+	<meta name="twitter:description" content="An EU-based Rocket League organisation and team."/>
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/rewindrl/rewindrl.github.io/master/img/embedlogo.png"/>
+	<meta name="twitter:image:alt" content="Rewind Gaming Logo"/>
+	<meta name="twitter:creator" content="@RewindRL"/>
+	<!-- Google metadata -->
+	<meta itemprop="name" content="Rewind Gaming">
+	<meta itemprop="url" content="http://rewindrl.uk/">
+	<meta itemprop="email" content="bucketman@rewindrl.uk">
+	<!-- JSON-LD metadata-->
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "Organization",
+	  "name": "Rewind Gaming",
+	  "url": "http://rewindrl.uk",
+	  "logo": "http://rewindrl.uk/img/embedlogo.png",
+	  "foundingDate": "2016",
+	  "founders": [
+	  {
+	  "@type": "Person",
+	  "name": "poisonwasp"
+	  },
+	  {
+	  "@type": "Person",
+	  "name": "bucketman"
+	  } ],
+	  "sameAs": [
+	  "http://twitter.com/RewindRL"
+	  ]
+	}
+	<!-- Google verification -->
+	<meta name="google-site-verification" content="aJK8UyIaTfpqG_nvIoCdzwoMbDiTS6M89TDAXW918Uk" />
+</script>
+	
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://rewindrl.uk/img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
@@ -53,7 +100,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand logo" href="#tf-home" style="padding:0px"><img src="img/Rewind Transparent.png" width=50 height=50></img></a>
+                      <a class="navbar-brand logo" href="#tf-home" style="padding:0px"><img itemprop="image" src="img/Rewind Transparent.png" width=50 height=50></img></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,7 +109,6 @@
                         <li><a href="#tf-home">Home</a></li>
                         <li><a href="#tf-about">About</a></li>
                         <li><a href="#tf-tournaments">Tournaments</a></li>
-                        <!--<li><a href="#tf-contact">Contact</a></li>-->
                       </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -169,10 +215,6 @@
 								<h5>Fusion</h5>
 							</div>
 							<div class="team-table-cell">
-								<img src="img/players/haaris.jpg" class="img-responsive"/>
-								<h5>Haaris</h5>
-							</div>
-							<div class="team-table-cell">
 								<img src="img/players/darksiderpanda.jpg" class="img-responsive"/>
 								<h5>P4nda</h5>
 							</div>
@@ -183,6 +225,10 @@
 							<div class="team-table-cell">
 								<img src="img/players/umbreondusk.jpg" class="img-responsive"/>
 								<h5>UmbreonDusk</h5>
+							</div>
+							<div class="team-table-cell">
+								<img src="img/players/placeholder.png" class="img-responsive"/>
+								<h5>TBD</h5>
 							</div>
 						</div>
                     </div>
@@ -197,36 +243,6 @@
             </div>
         </div>
     </div>
-
-	<!--
-    <div id="tf-why-me">
-        <div class="overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3>Why Us?</h3>
-                        <br>
-                        <ul class="list-inline why-me">
-                            <li>
-                                <h4>We had paper.</h4>
-                                <p>Mmmm, look at those lines.</p>
-                            </li>
-                            <li>
-                                <h4>We had pens.</h4>
-                                <p>Damn, that pen were fancy af.</p>
-                            </li>
-                            <li>
-                                <h4>We can write.</h4>
-                                <p>At least, some of us can.</p>
-                            </li>
-                        </ul>
-                        <a href="#tf-contact" class="btn btn-primary my-btn dark">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	-->
 
     <div id="tf-tournaments">
         <div class="container">
@@ -270,40 +286,6 @@
         </div>
     </div>
 
-<!--
-    <div id="tf-contact">
-        <div class="container">
-            <div class="section-title">
-                <h3>Contact Us</h3>
-                <p>We have fancy new emails now.</p>
-                <hr>
-            </div>
-
-            <div class="space"></div>
-
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <form id="contact">
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
-                      </div>
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Website">
-                      </div>
-                      <div class="form-group">
-                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary my-btn dark">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
--->
-
     <nav id="tf-footer">
         <div class="container">
              <div class="pull-left">
@@ -336,3 +318,4 @@
 
   </body>
 </html>
+<!-- poison is a muppet -->
